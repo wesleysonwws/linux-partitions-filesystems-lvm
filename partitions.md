@@ -45,3 +45,38 @@ No Linux podemos visualizar os discos e suas partições com o comando:
 
 ```bash
 lsblk
+```
+
+Exemplo de saída:
+<img width="1536" height="1024" alt="lsblk img" src="https://github.com/user-attachments/assets/9a770fff-d631-4253-ad85-37dd35102404" />
+
+Esse comando mostra:
+
+- Discos disponíveis
+- Partições existentes
+- Pontos de montagem
+
+## Criando partições
+
+Uma das ferramentas clássicas para criar partições no Linux é o **fdisk**.
+
+Exemplo de uso:
+
+```bash
+sudo fdisk /dev/sdb
+```
+Exemplo de saída:
+<img width="1536" height="1024" alt="particao img" src="https://github.com/user-attachments/assets/140ade3c-2493-40f6-9f23-eab4e3260014" />
+
+Esse comando mostra:
+
+- Criar novas partições
+- Excluir partições
+- Alterar tipos de partição
+- Salvar alterações no disco
+
+## Conclusão
+
+As partições são fundamentais para a organização do armazenamento no Linux.  
+Elas permitem dividir um disco físico em múltiplas áreas lógicas, facilitando o gerenciamento do sistema e dos dados.
+Sempre verifique com `lsblk` antes de utilizar o `fdisk`, garantindo que o disco correto esteja sendo manipulado.
