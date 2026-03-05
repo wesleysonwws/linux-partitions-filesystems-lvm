@@ -30,3 +30,9 @@ O objetivo é demonstrar, de forma prática e teórica, como o Linux organiza e 
 - `pvcreate`
 - `vgcreate`
 - `lvcreate`
+
+## Ambiente de Teste
+
+- Máquina Virtual (VirtualBox / VMware)
+- Distribuição Linux: Ubuntu / Debian / Rocky
+- Disco virtual dedicado para testes
